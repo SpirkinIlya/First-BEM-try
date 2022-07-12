@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+    padding: 5px;
+    gap: 5px;
+}
+.header__logo{
+  text-align: left;
+  font-size: 30px;
+  border: 5px solid;
+  width: 20%;
+}
+.header__search-form{
+  text-align: center;
+  font-size: 30px;
+  border: 5px solid;
+  width: 55%;
+}
+.header__phone-number{
+  text-align: center;
+  font-size: 30px;
+  border: 5px solid;
+  width: 25%;
+}
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;    
+  }
+  .header__logo{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .header__search-form{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .header__phone-number{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}

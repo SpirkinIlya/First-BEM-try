@@ -1,0 +1,12 @@
+.footer {
+    min-height: 100 px;
+    width: 100%;
+    min-width: fit-content;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.footer__footer-text{
+  border: 5px solid;
+  text-align: center;
+  font-size: 30px;
+}
